@@ -1,4 +1,7 @@
 # install bs4, lxml, requests, pandas, selenium, webdriver_manager in CMD (admin)
+# Create a folder named "Webscrape" on Desktop
+# Rename the last line of code from 'zenbook' to your computer username
+
 
 from bs4 import BeautifulSoup
 from lxml import html
