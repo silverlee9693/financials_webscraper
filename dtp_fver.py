@@ -37,7 +37,6 @@ dfs = pd.read_html(markup)
 
 
 dtp = pd.DataFrame(dfs[1])
-dtp = dtp.set_index('Participation')
 
 # Adjusting the timestamp and convert to strings
 ts = pd.Timestamp.now()  
